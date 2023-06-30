@@ -6,6 +6,7 @@ import type { AppProps } from "next/app";
 const theme = extendTheme({
   styles: {
     global: {
+      // chakra-uiのデフォルトのスタイルを上書きする
       body: {
         color: "rgba(0,0,0,.6)",
       },
@@ -25,6 +26,7 @@ const theme = extendTheme({
     },
   },
   colors: {
+    // <Text>の色
     text: {
       base: "rgba(0,0,0,.6)",
     },
